@@ -9,7 +9,6 @@ function App() {
       <BrowserRouter>
         <Router />
       </BrowserRouter>
-      <div>Hi</div>
     </>
   )
 }
