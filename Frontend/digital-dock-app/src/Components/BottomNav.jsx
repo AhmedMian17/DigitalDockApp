@@ -15,7 +15,7 @@ export default function BottomNav() {
             setNextDisable(true);
         } else if (location.pathname === '/sessions') {
             setBackDisable(false);
-            setNextDisable(false);
+            setNextDisable(true);
         }
     }, [location.pathname])
 
